@@ -39,7 +39,7 @@ namespace ВычматЛаба6
         //метод Рунге-Кутты-Мерсона
         public float RungeKuttaMerson(float xn, float yn, ref float h)
         {
-            float epsilon = (float)Math.Pow(10, -4);
+            float epsilon = (float)Math.Pow(10, -9);
             float [] k = new float[5];
             while (true)
             {
